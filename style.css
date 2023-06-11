@@ -1,0 +1,56 @@
+ul li{
+    list-style-type: none;
+
+}
+.fill{
+    width:100%; 
+}
+.card-img-container{
+    overflow: hidden;
+    object-fit:cover;
+    border-style: solid; 
+    border-radius: 5px; 
+    border-width: 1px; 
+    border-color: lightgrey;
+}
+.img-container{
+    border-style: solid; 
+    border-radius: 5px; 
+    border-width: 1px; 
+    border-color: lightgrey;
+}
+
+.rate{
+    font-size: 24px; 
+    color:lightgrey; 
+}
+.avg{
+    color:maroon; 
+    font-size: 24px; 
+}
+.modal-body {
+    max-width: 100%;
+    padding: 0;
+}
+
+.modal-body img {
+    width: 100%;
+}
+.formDiv{
+    display:block;
+}
+.searchBar{
+    display:none; 
+    width: 100%; 
+}
+.card-images {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.card-images img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
